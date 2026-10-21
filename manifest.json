@@ -1,0 +1,75 @@
+{
+  "$schema": "https://raw.githubusercontent.com/Passimoritz/hostwerk-public/main/sdk/manifest.schema.json",
+  "id": "deploy-log",
+  "name": {
+    "de": "Deploy-Protokoll",
+    "en": "Deploy log"
+  },
+  "description": {
+    "de": "Jedes Veröffentlichen, jeder Git-Pull und jede veröffentlichte Seite mit Zeit, Stand (Commit und Snapshot) und Ergebnis – je Projekt, mit einem Klick zurück auf einen früheren Stand.",
+    "en": "Every deploy, every git pull and every published site with time, state (commit and snapshot) and result – per project, with one click back to an earlier state."
+  },
+  "version": "1.0.0",
+  "author": "Hostwerk",
+  "homepage": "https://github.com/Passimoritz/hostwerk-ext-deploy-log",
+  "license": "MIT",
+  "icon": "icon.svg",
+  "banner": "banner.svg",
+  "color": "#4f46e5",
+  "category": "developer",
+  "hostwerk": ">=2.11.0",
+  "permissions": [
+    "native"
+  ],
+  "page": {
+    "title": {
+      "de": "Deploy-Protokoll",
+      "en": "Deploy log"
+    },
+    "description": {
+      "de": "Was wann veröffentlicht wurde – und zurück auf einen früheren Stand.",
+      "en": "What was published when – and back to an earlier state."
+    },
+    "icon": "cloud-upload",
+    "nav": {
+      "group": "develop"
+    }
+  },
+  "backend": "server/index.js",
+  "ui": "ui/index.js",
+  "settings": [
+    {
+      "key": "snapshot",
+      "type": "switch",
+      "label": {
+        "de": "Nach jedem Veröffentlichen einen Snapshot anlegen",
+        "en": "Take a snapshot after every deploy"
+      },
+      "default": true
+    },
+    {
+      "key": "keep",
+      "type": "number",
+      "label": {
+        "de": "Eigene Snapshots je Projekt behalten (0 = alle)",
+        "en": "Own snapshots to keep per project (0 = all)"
+      },
+      "default": 10,
+      "min": 0,
+      "max": 100
+    }
+  ],
+  "synergies": [
+    {
+      "with": "static-publish",
+      "title": {
+        "de": "Veröffentlichte Seiten im Protokoll",
+        "en": "Published sites in the log"
+      },
+      "text": {
+        "de": "Jedes Hochladen auf GitHub Pages oder Cloudflare Pages erscheint mit Adresse im Deploy-Protokoll – und lässt sich mit einem Klick auf einen früheren Stand zurücksetzen und neu veröffentlichen.",
+        "en": "Every upload to GitHub Pages or Cloudflare Pages shows up in the deploy log with its address – and can go back to an earlier state and be published again with one click."
+      }
+    }
+  ]
+}
