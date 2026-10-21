@@ -8,6 +8,7 @@ Every deploy, every git pull and every published site with time, state (commit a
 
 ## What it does
 
+- **Where:** Projects → Deploy log (all projects) and the tab of every project – no own sidebar entry since 1.1.0; the full page stays under Extensions → Open
 - Logs on its own, nothing to set up: **Publish** to a server (SFTP, FTP, git push), **git pull** in Hostwerk and **Publish sites** (GitHub Pages, Cloudflare Pages, extension [static-publish](https://github.com/Passimoritz/hostwerk-ext-static-publish)); restoring a snapshot shows up as well
 - Every entry: time and duration, target, result (files uploaded/removed, address, or the error), the **commit** (branch, short hash, message, and how many files differed from it) and the **snapshot** of that state
 - **Back to the previous state** with one click – or back to any entry: Hostwerk saves the current state as a snapshot first, then restores the project files of that time; if you want, the old state is published again to the same server or site right away

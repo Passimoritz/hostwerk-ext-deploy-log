@@ -8,6 +8,7 @@ Jedes Veröffentlichen, jeder Git-Pull und jede veröffentlichte Seite mit Zeit,
 
 ## Was sie kann
 
+- **Wo:** Projekte → Deploy-Protokoll (alle Projekte) und Reiter jedes Projekts – seit 1.1.0 ohne eigenen Seitenleisten-Eintrag; die ganze Seite bleibt unter Erweiterungen → Öffnen
 - Protokolliert von selbst, ohne Einrichtung: **Veröffentlichen** auf einen Server (SFTP, FTP, Git-Push), **Git-Pull** in Hostwerk und **Seiten veröffentlichen** (GitHub Pages, Cloudflare Pages, Erweiterung [static-publish](https://github.com/Passimoritz/hostwerk-ext-static-publish)); auch das Zurückholen eines Snapshots erscheint
 - Jeder Eintrag: Zeit und Dauer, Ziel, Ergebnis (hochgeladene/entfernte Dateien, Adresse oder der Fehler), der **Commit** (Zweig, kurzer Hash, Nachricht und wie viele Dateien davon abwichen) und der **Snapshot** dieses Stands
 - **Zurück auf den vorherigen Stand** mit einem Klick – oder auf jeden beliebigen Eintrag: Hostwerk sichert zuerst den aktuellen Stand als Snapshot und holt dann die Projektdateien von damals zurück; auf Wunsch wird der alte Stand gleich wieder auf denselben Server oder dieselbe Seite veröffentlicht

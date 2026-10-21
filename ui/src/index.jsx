@@ -186,6 +186,9 @@ function DeployLogTile() {
 export default {
   pages: { main: DeployLogPage },
   slots: {
+    // Seit Hostwerk 3.0 (SDK 3.2) ohne eigenen Seitenleisten-Eintrag ("nav": false) – die ganze Seite als Reiter im passenden Bereich;
+    // Hostwerk blendet dabei ihren Titel aus (Reiter + Herkunftszeile sagen schon, was es ist), die Knöpfe bleiben
+    'projects.tabs': [{ id: 'deploys', title: 'Deploy log', icon: CloudUpload, Component: DeployLogPage, order: 55 }],
     'project.tabs': [{ id: 'deploy-log', title: 'Deploy log', icon: CloudUpload, Component: ProjectTab, order: 75 }],
     'dashboard.tiles': [{ id: 'recent', title: 'Recent deploys', icon: CloudUpload, size: 'third', Component: DeployLogTile }],
   },
