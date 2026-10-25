@@ -2,6 +2,8 @@
 
 # Deploy-Protokoll
 
+> **Aufgegangen in „Seiten veröffentlichen“ (2.0):** Der Verlauf ist jetzt Teil von Projekte → Veröffentlichen (Umschalter „Verlauf“), der Reiter je Projekt und die Kachel bleiben. Hostwerk installiert die neue Fassung von selbst und entfernt diese Erweiterung; Daten und Einstellungen bleiben. Hier gibt es keine neuen Fassungen mehr.
+
 Jedes Veröffentlichen, jeder Git-Pull und jede veröffentlichte Seite mit Zeit, Stand (Commit und Snapshot) und Ergebnis – je Projekt, mit einem Klick zurück auf einen früheren Stand.
 
 [English](README.md) · Offizielle [Hostwerk](https://github.com/Passimoritz/hostwerk-public)-Erweiterung (native Erweiterung, ab Hostwerk 2.11)

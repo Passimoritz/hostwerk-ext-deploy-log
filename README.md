@@ -2,6 +2,8 @@
 
 # Deploy log
 
+> **Merged into “Publish sites” (2.0):** the history is now part of Projects → Publish (switch “History”); the tab per project and the tile stay. Hostwerk installs the new version by itself and removes this extension; data and settings stay. There are no new versions here.
+
 Every deploy, every git pull and every published site with time, state (commit and snapshot) and result – per project, with one click back to an earlier state.
 
 [Deutsch](README.de.md) · An official [Hostwerk](https://github.com/Passimoritz/hostwerk-public) extension (native extension, Hostwerk 2.11 or newer)
