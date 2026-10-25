@@ -4,7 +4,9 @@
 
 Every deploy, every git pull and every published site with time, state (commit and snapshot) and result – per project, with one click back to an earlier state.
 
-[Deutsch](README.de.md) · An official [Hostwerk](https://github.com/Passimoritz/hostwerk-public) extension (SDK 2.7, native extension)
+[Deutsch](README.de.md) · An official [Hostwerk](https://github.com/Passimoritz/hostwerk-public) extension (native extension, Hostwerk 2.11 or newer)
+
+![Screenshot](docs/screenshot.png)
 
 ## What it does
 
